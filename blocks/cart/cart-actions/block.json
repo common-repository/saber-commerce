@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/cart-actions",
+	"version": "0.1.0",
+	"title": "Cart Actions Block",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Provides a checkout button and is usually placed near the footer of the shopping cart.",
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"textdomain": "cart-actions",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

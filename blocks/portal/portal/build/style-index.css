@@ -1,0 +1,12 @@
+.wp-block-saber-commerce-portal {
+  margin: 1em 0;
+}
+
+.wp-block-saber-commerce-portal .portal-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 5fr;
+  grid-template-columns: 2fr 5fr;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

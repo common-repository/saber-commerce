@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/checkout-payment",
+	"version": "0.1.0",
+	"title": "Checkout Payment",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Renders the payment options inside of the checkout page. ",
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"textdomain": "checkout-payment",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

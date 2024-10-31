@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/checkout-action-buttons",
+	"version": "0.1.0",
+	"title": "Checkout Action Buttons",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Renders the action buttons including Pay Now.",
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"textdomain": "checkout-action-buttons",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

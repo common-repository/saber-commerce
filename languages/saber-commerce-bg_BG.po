@@ -1,0 +1,88 @@
+# Copyright (C) 2021 Saber WP
+# This file is distributed under the GPL3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Saber Commerce 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sacomA\n"
+"Last-Translator: \n"
+"Language-Team: Bulgarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-06-12T02:21:49+02:00\n"
+"PO-Revision-Date: 2021-06-12 00:35+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: saber-commerce\n"
+"Language: bg_BG\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2"
+
+#. Plugin Name of the plugin
+msgid "Saber Commerce"
+msgstr "Sabre Commerce"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/saber-commerce/"
+msgstr "https://wordpress.org/plugins/saber-commerce/"
+
+#. Description of the plugin
+msgid "Time tracking and invoicing software for WordPress sites."
+msgstr ""
+"Софтуер за проследяване на времето и фактуриране за сайтове на WordPress."
+
+#. Author of the plugin
+msgid "Saber WP"
+msgstr "Sabre WP"
+
+#. Author URI of the plugin
+msgid "https://saberwp.com/"
+msgstr "https://saberwp.com/"
+
+#: components/Admin/AdminComponent.php:38
+#: components/Admin/AdminComponent.php:39
+msgid "Dashboard"
+msgstr "Табло"
+
+#: components/Cart/CartComponent.php:181
+#: components/Checkout/CheckoutComponent.php:115
+msgid "Product"
+msgstr "Продукт"
+
+#: components/Cart/CartComponent.php:182
+msgid "New"
+msgstr "Ново"
+
+#: components/Cart/CartComponent.php:183
+#: components/Checkout/CheckoutComponent.php:116
+msgid "Price"
+msgstr "Цена"
+
+#: components/Cart/CartComponent.php:184
+#: components/Checkout/CheckoutComponent.php:117
+msgid "Quantity"
+msgstr "Количество"
+
+#: components/Cart/CartComponent.php:185
+#: components/Checkout/CheckoutComponent.php:118
+msgid "Subtotal"
+msgstr "Междинна сума"
+
+#: components/Cart/CartComponent.php:186
+msgid "Empty Cart"
+msgstr "Празна количка"
+
+#: components/Cart/CartComponent.php:187
+msgid "Proceed to Checkout"
+msgstr "Продължете към Checkout"
+
+#: components/Cart/CartComponent.php:188
+msgid "Remove"
+msgstr "Премахване"
+
+#: components/Checkout/CheckoutComponent.php:113
+msgid "Billing Details"
+msgstr "Данни за плащане"
+
+#: components/Checkout/CheckoutComponent.php:114
+msgid "Your Order Summary"
+msgstr "Резюме на вашата поръчка"

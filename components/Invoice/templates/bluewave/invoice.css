@@ -1,0 +1,224 @@
+html, body {
+
+	background-color: #EBEBEB;
+	margin: 0;
+	font-family: "verdana", sans-serif;
+
+}
+
+table tbody {
+
+	background: #F2F2F2;
+	color: #323232;
+	padding: 30px 0;
+	margin: 0 0;
+	font-size: 16px;
+
+}
+
+thead, tfoot {
+
+	background-color: #484848;
+
+}
+
+#sacom-invoice {
+
+	background-color: #EBEBEB;
+	color: #FFF;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+
+}
+
+table {
+
+	width: 100%;
+	border-collapse: collapse !important;
+
+}
+
+th, td {
+
+	text-align: left;
+	vertical-align: top;
+	border: none !important;
+	padding: 0;
+	margin: 0;
+
+}
+
+#sacom-invoice-header-left {
+
+	padding: 50px 50px 50px 50px;
+
+}
+
+#sacom-invoice-header-left h1 {
+
+	font-size: 38px;
+	font-weight: 500;
+
+}
+
+#sacom-invoice-header-left h4 {
+
+	font-weight: 400;
+
+}
+
+#sacom-invoice-header-right {
+
+	padding: 50px 50px 50px 50px;
+	background-color: #2271B1;
+	color: #FFF;
+	width: 50%;
+	vertical-align: middle;
+
+}
+
+#sacom-invoice-header-right h4 {
+
+	margin: 0;
+
+}
+
+/* Amount Due Display */
+#sacom-invoice-header-right h2 {
+
+	font-size: 36px;
+	font-weight: 600;
+	margin: 0;
+
+}
+
+#sacom-invoice-header-right h2 {
+
+	margin: 0;
+
+}
+
+.sacom-text-align-right {
+
+	text-align: right;
+
+}
+
+table tfoot {
+
+	background: #686868;
+
+}
+
+#sacom-invoice-footer-left {
+
+	padding: 50px;
+
+}
+
+/* Company Name */
+#sacom-invoice-footer-left h3 {
+
+	font-size: 20px;
+
+}
+
+#sacom-invoice-company-address {
+
+
+
+}
+
+
+
+#sacom-invoice-company-address h4 {
+
+	font-weight: normal;
+	font-size: 16px;
+	margin: 0;
+
+}
+
+.sacom-invoice-line-title {
+
+	padding-left: 50px;
+
+}
+
+#sacom-invoice-line-items-header {
+
+	padding-left: 50px;
+
+}
+
+.sacom-invoice-line-row td {
+
+	padding: 12px 0;
+
+}
+
+.sacom-invoice-line-amount {
+
+	padding-right: 50px;
+
+}
+
+#sacom-invoice-lines-table thead {
+
+	background: #DDDDDD;
+
+}
+
+#sacom-invoice-lines-table thead th {
+
+	padding: 12px 0;
+
+}
+
+#sacom-invoice-lines-table thead th:first-child {
+
+	padding-left: 50px;
+
+}
+
+#sacom-invoice-lines-table thead th:last-child {
+
+	padding-right: 50px;
+
+}
+
+#sacom-invoice-lines-table tbody td:nth-child(1) {
+
+	padding-left: 50px;
+
+}
+
+#sacom-invoice-lines-table tbody td:nth-child(4) {
+
+	padding-right: 50px;
+
+}
+
+#sacom-invoice-payment-container {
+
+
+}
+
+#sacom-invoice-pay-button {
+
+	display: block;
+	font-size: 40px;
+	font-weight: 600;
+	font-family: "verdana", sans-serif;
+	color: #FFF;
+	text-decoration: none;
+	padding: 50px;
+	background: #2271B1;
+	text-align: center;
+
+}
+
+#sacom-invoice-pay-button:hover {
+	background: #1A6098;
+}

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "dompdf/dompdf": "^1.0",
+        "delight-im/random": "^1.0"
+    }
+}

@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/portal-section-dashboard",
+	"version": "0.1.0",
+	"title": "Portal Dashboard",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Displays the portal dashboard.",
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"textdomain": "portal-section-dashboard",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

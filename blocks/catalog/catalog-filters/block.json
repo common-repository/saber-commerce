@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/catalog-filters",
+	"version": "0.1.0",
+	"title": "Catalog Filters Block",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Renders the catalog filters. ",
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"textdomain": "catalog-filters",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

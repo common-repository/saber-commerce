@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/style.scss"],"names":[],"mappings":"AAAA;EAEC;EACA;AAAD,C","file":"style-index.css","sourcesContent":[".wp-block-saber-commerce-cart {\r\n\r\n\tmax-width: 800px;\r\n\tmargin: 2.0em auto;\r\n\r\n}\r\n"],"sourceRoot":""}

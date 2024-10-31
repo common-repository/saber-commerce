@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/cart",
+	"version": "0.1.1",
+	"title": "Cart",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Full cart block.",
+	"supports": {
+		"html": false,
+		"color": true
+	},
+	"textdomain": "saber-commerce",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

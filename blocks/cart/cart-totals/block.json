@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/cart-totals",
+	"version": "0.1.0",
+	"title": "Cart Totals Block",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Dynamic cart totals block for the Saber Commerce cart.",
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"textdomain": "saber-commerce",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

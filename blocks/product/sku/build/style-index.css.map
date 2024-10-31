@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/style.scss"],"names":[],"mappings":"AAAA;EACC;EACA;EACA;AACD,C","file":"style-index.css","sourcesContent":[".wp-block-saber-commerce-sku {\n\tbackground-color: #21759b;\n\tcolor: #fff;\n\tpadding: 2px;\n}\n"],"sourceRoot":""}

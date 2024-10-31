@@ -1,0 +1,48 @@
+.wp-block-saber-commerce-cart-table-footer {
+
+	color: #fff;
+
+}
+
+.cart-table-footer-grid {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 0.0em 0 0.0em 0;
+	padding: 1.0em 0;
+
+}
+
+.cart-table-footer-grid > div:last-child {
+
+	justify-self: end;
+
+}
+
+.cart-table-footer-grid button {
+
+	border-radius: 0;
+	border: none;
+	background-color: #FF00C7;
+	color: #FFF;
+	padding: 12px 20px;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	min-width: 220px;
+
+}
+
+.cart-table-footer-grid button.btn-secondary {
+
+	border: solid 1px #FF00C7;
+	background: #FFF;
+	color: #FF00C7;
+
+}
+
+.cart-table-footer-grid button.btn-disabled {
+	opacity: 0.25;
+	cursor: default;
+}

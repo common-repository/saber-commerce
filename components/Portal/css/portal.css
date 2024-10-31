@@ -1,0 +1,7 @@
+#sacom-portal-menu li {
+	cursor: pointer;
+}
+
+#sacom-portal-menu li:hover {
+	color: #545454;
+}

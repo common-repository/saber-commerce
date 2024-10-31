@@ -1,0 +1,6 @@
+{
+	"name": "Saber Commerce",
+	"settings": [
+		"stripe_mode": "1",
+	]
+}

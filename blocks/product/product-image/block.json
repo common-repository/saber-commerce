@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/product-image",
+	"version": "0.1.0",
+	"title": "Product Image",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Displays the current product image or a fallback placeholder if no image is available. ",
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"textdomain": "product-image",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

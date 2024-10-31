@@ -1,0 +1,110 @@
+.sacom-checkout {
+
+	max-width: 1200px;
+	min-width: 320px;
+
+}
+
+.sacom-checkout-grid {
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 30px;
+
+}
+
+/* Payment Methods */
+
+#sacom-checkout-payment-method-menu {
+
+	display: flex;
+	list-style: none;
+	margin: 30px 0;
+	padding: 0;
+	border-bottom: solid 4px #17629E;
+
+}
+
+#sacom-checkout-payment-method-menu li {
+
+	cursor: pointer;
+	margin: 0 0 -4px 0;
+	padding: 3px 20px;
+	min-width: 120px;
+	text-align: center;
+	border-bottom: solid 4px #17629E;
+
+}
+
+#sacom-checkout-payment-method-menu li:hover {
+
+	border-bottom: solid 4px #F6F6F6;
+
+}
+
+#sacom-checkout-payment-method-menu li.active {
+
+	background-color: #17629E;
+	color: #FFF;
+
+}
+
+.sacom-checkout-payment-pane {
+
+	display: none;
+
+}
+
+.sacom-form-row {
+
+	margin: 25px 0;
+
+}
+
+.sacom-checkout-grid-col h2 {
+
+	margin: 20px 0;
+
+}
+
+.sacom-checkout-grid-col table h3 {
+
+	font-size: 1.2em;
+
+}
+
+.sacom-checkout-grid-col table td,
+.sacom-checkout-grid-col table th {
+
+	text-align: right;
+
+}
+
+.sacom-checkout-grid-col table td:nth-child(1) {
+
+	text-align: left;
+
+}
+
+.sacom-checkout-pay-now {
+
+	margin: 30px 0;
+	padding: 25px;
+
+}
+
+.sacom-checkout-return-cart {
+
+	font-size: 0.95em;
+	padding: 3px;
+	margin: 40px 0;
+	max-width: 200px;
+
+}
+
+.sacom-checkout-payment-section {
+
+	margin: 40px 0;
+	border-top: solid 1px #FFFFFF26;
+
+}

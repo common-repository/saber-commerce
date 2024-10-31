@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/portal-body",
+	"version": "0.1.0",
+	"title": "Portal Body",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Renders the main container for the portal. ",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "portal-body",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

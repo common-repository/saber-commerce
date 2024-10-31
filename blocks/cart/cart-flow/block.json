@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/cart-flow",
+	"version": "0.1.0",
+	"title": "Cart Flow",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Provides cart flow.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "cart-flow",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

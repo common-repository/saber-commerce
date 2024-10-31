@@ -1,0 +1,26 @@
+.wp-block-saber-commerce-checkout-action-buttons {
+  display: -ms-grid;
+  display: grid;
+}
+
+.wp-block-saber-commerce-checkout-action-buttons .scm-checkout-pay-now-button {
+  -ms-grid-column-align: end;
+      justify-self: end;
+  display: block;
+  margin: 20px 0;
+  border: none;
+  border-radius: 0;
+  background-color: #FF00C7;
+  color: #FFF;
+  padding: 18px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.wp-block-saber-commerce-checkout-action-buttons .scm-checkout-pay-now-button:hover {
+  opacity: 0.85;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/checkout-order-summary",
+	"version": "0.1.0",
+	"title": "Checkout Order Summary",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Renders the order summary section of the checkout page.",
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"textdomain": "checkout-order-summary",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

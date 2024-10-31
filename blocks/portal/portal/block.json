@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/portal",
+	"version": "0.1.0",
+	"title": "Portal",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Renders the Saber Commerce customer portal account area.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "portal",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

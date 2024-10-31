@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/style.scss"],"names":[],"mappings":"AAAA;EAEC;AAAD;;AAIA;EAEC;EAAA;EACA;EAAA;AAFD,C","file":"style-index.css","sourcesContent":[".wp-block-saber-commerce-portal {\n\n\tmargin: 1em 0;\n\n}\n\n.wp-block-saber-commerce-portal .portal-grid {\n\n\tdisplay: grid;\n\tgrid-template-columns: 2fr 5fr;\n\n}\n"],"sourceRoot":""}

@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/product-data",
+	"version": "0.1.0",
+	"title": "Product Data Block",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Product data settings form for Gutenberg data storage.",
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"textdomain": "saber-commerce",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

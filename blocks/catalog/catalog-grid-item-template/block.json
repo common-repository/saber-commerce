@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/catalog-grid-item-template",
+	"version": "0.1.0",
+	"title": "Catalog Grid Item Template",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Renders each product in a grid using blocks included in the template.",
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"textdomain": "catalog-grid-item-template",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

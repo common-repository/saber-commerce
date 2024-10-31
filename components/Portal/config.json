@@ -1,0 +1,8 @@
+{
+	"portal_name": "Customer Portal",
+	"portal_slug": "account",
+	"sections": [
+		"invoice",
+		"payment"
+	]
+}

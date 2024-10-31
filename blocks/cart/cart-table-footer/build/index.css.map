@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/editor.scss"],"names":[],"mappings":"AAAA;EACC;AACD,C","file":"index.css","sourcesContent":[".wp-block-saber-commerce-cart-table-footer {\r\n\tborder: 1px dotted #f00;\r\n}\r\n"],"sourceRoot":""}

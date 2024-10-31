@@ -1,0 +1,24 @@
+.wp-block-saber-commerce-cart-totals {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  justify-content: end;
+  padding: 1em;
+  background-color: #EEEEEE;
+}
+
+.wp-block-saber-commerce-cart-totals {
+  text-align: right;
+}
+
+.wp-block-saber-commerce-cart-totals table {
+  width: 50%;
+  margin-left: auto;
+}
+
+.wp-block-saber-commerce-cart-totals h3 {
+  color: #454545;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

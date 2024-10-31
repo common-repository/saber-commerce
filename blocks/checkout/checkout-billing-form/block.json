@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/checkout-billing-form",
+	"version": "0.1.0",
+	"title": "Checkout Billing Form",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Renders the billing form to collect the customer address and other billing details. ",
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"textdomain": "checkout-billing-form",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

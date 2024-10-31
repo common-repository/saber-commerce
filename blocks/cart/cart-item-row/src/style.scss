@@ -1,0 +1,35 @@
+.wp-block-saber-commerce-cart-item-row {
+
+	background-color: #F1F1F1;
+	border-top: solid 5px #FFF;
+
+}
+
+.wp-block-saber-commerce-cart-item-row td {
+
+	color: #909090;
+	border: none;
+	padding: 2em 1.0em;
+
+}
+
+.wp-block-saber-commerce-cart-item-row td.align-right {
+	text-align: right;
+}
+
+.wp-block-saber-commerce-cart-item-row td.align-center {
+	text-align: center;
+}
+
+.wp-block-saber-commerce-cart-item-row .scm-cart-item-quantity {
+
+	width: 60px;
+	height: auto;
+	border: 0;
+	border-radius: none;
+	padding: 0 0 0 5px;
+	line-height: 1.5;
+	font-size: 1.1em;
+	color: #707070
+
+}

@@ -1,0 +1,428 @@
+#timesheetEntryAddButton {
+
+	cursor: pointer;
+
+}
+
+#timesheet-editor-grid {
+	width: calc( 100% - 20px );
+	display: grid;
+	grid-template-columns: 3fr 4fr;
+	grid-gap: 3em;
+	padding: 3.5em 1.5em 1.5em 1.5em;
+}
+
+#timesheet-editor-column-right {
+	margin-right: 0.75em;
+	padding: 0;
+	min-width: 220px;
+}
+
+#sacom-editor-mode-menu-container {
+	margin: 2.5em 0;
+}
+#sacom-editor-mode-menu {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 2fr 3fr;
+	grid-gap: 2px;
+	margin: 0 0 0 0;
+}
+
+.sacom-editor-mode-menu-label {
+	text-align: right;
+	margin: 0 0.25em 0 0;
+	font-weight: 500;
+	color: #929292;
+}
+
+#sacom-editor-mode-menu button {
+	border: none;
+}
+
+.datepicker {
+	cursor: pointer;
+}
+
+/*
+ * Timesheet Entry Controls
+ */
+.entry-row-controls button {
+	cursor: pointer;
+}
+
+
+#timesheet-entry-table {
+	margin: 0.8em 0;
+	width: 100%;
+}
+
+#timesheet-entry-table th,
+#timesheet-entry-table td {
+	padding: 0.35em 0.5em;
+	text-align: center;
+}
+
+#timesheet-entry-table th {
+	font-size: 14px;
+	font-weight: 400;
+	color: #343434;
+}
+
+#timesheet-entry-table td {
+	font-size: 16px;
+}
+
+#timesheet-entry-table thead th {
+	border-bottom: solid 2px #C7C7C7;
+}
+
+#timesheet-entry-table tbody td {
+	border-bottom: solid 1px #DFDFDF;
+}
+
+.entry-row-controls button {
+	background: #2271B1;
+	border: none;
+	margin: 0 0.35em;
+	cursor: pointer;
+	color: #FFF;
+	padding: 0.8em 1.5em;
+}
+.entry-row-controls {
+	display: flex;
+}
+
+/* Totals Section */
+#timesheet-totals {
+	padding: 25px;
+}
+
+/* List */
+#timesheet-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 2.5em;
+	margin: 0 20px 0 0;
+}
+
+.timesheet-item {
+	padding: 0.7em 0.7em 0 0.7em;
+	background-color: #DDDDD9;
+	cursor: pointer;
+}
+
+.timesheet-item h2 {
+	font-size: 1.7em;
+	color: #5B5B5B;
+}
+
+
+/* Grid List Cards */
+.timesheet-item .sacom-card-footer {
+	background-color: #2271B1;
+	margin: 1.0em -0.7em 0 -0.7em;
+	padding: 0.7em;
+	color: #FFFFFF;
+	display: flex;
+}
+
+.timesheet-item .sacom-card-footer h4 {
+	display: block;
+	width: 50%;
+}
+
+.italic-medium {
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+.timesheet-item-dates {
+	margin: 2.5em 0 1.0em 0;
+}
+
+.timesheet-item .sacom-card-footer h4:last-of-type {
+
+	text-align: right;
+}
+
+/* List section header. */
+.list-section-header {
+	font-weight: 600;
+	font-size: 1.26em;
+	color: #929292;
+	padding: 0 0 0.3em 0;
+	border-bottom: solid 1px #C2C2C2;
+}
+
+#sacom-button-time-track {
+	padding: 10px 0 0 0;
+	margin: 0 2.5em 0 0;
+	cursor: pointer;
+}
+
+#sacom-button-time-track:hover {
+	padding-top: 8px;
+}
+
+.timesheet-item-id {
+	font-size: 1.35em;
+	font-weight: 500;
+	color: #CCC;
+	margin-bottom: 0;
+	text-align: right;
+}
+
+.datepicker-prepend {
+	cursor: pointer;
+	width: 45px;
+	height: auto;
+	margin: 0 0.8em 0 0;
+}
+
+.datepicker-prepend svg path {
+	fill: #999780;
+}
+
+.datepicker-wrap {
+	max-width: 100%;
+	margin: 1.5em 0;
+}
+
+.datepicker-wrap input {
+	font-size: 1.8em;
+	border: none;
+	background: #F4F4F4;
+	width: 100%;
+}
+
+.sacom-editor {
+
+	display: grid;
+	grid-template-columns: 4fr 6fr;
+
+}
+
+.sacom-edit-row {
+	margin: 1.0em 0;
+	max-width: 100%;
+}
+
+
+
+.field-prepend {
+	width: 50px;
+	margin: 0 0.5em 0 0;
+}
+
+.billable-rates {
+	display: flex;
+	margin: 2.5em 0 3.5em 0;
+}
+
+.billable-rates input {
+	background: #F4F4F4;
+	border: none;
+	padding: 0.20em 0.4em;
+	font-size: 1.25em;
+	width: 100%;
+}
+
+.billable-rates svg path {
+	fill: #2271B1;
+}
+
+#field-label {
+
+	font-size: 2.8em;
+	color: #9A9A9A;
+	padding: 0.20em 0.30em;
+	margin: 0 0 1.0em 0;
+	border: solid 1px #E8E8E8;
+
+}
+
+.datepicker-prepend svg path {
+
+	fill: #999780;
+
+}
+
+.datepicker-wrap {
+
+	max-width: 100%;
+
+}
+
+.datepicker-wrap input {
+
+	border: none;
+	background: #F4F4F4;
+	padding: 0.25em;
+
+}
+
+.start-date-prepend {
+
+}
+
+.end-date-prepend {
+
+}
+
+
+
+
+
+#field-account {
+
+
+
+}
+
+
+.sacom-editor-child-object-list ul {
+
+	color: #9A9A9A;
+	list-style: none;
+	margin: 0;
+
+}
+
+.datepicker-wrap {
+
+	display: flex;
+
+}
+
+#field-memo {
+
+	width: 100%;
+	font-size: 1.95em;
+	font-weight: 600;
+	color: #9A9A9A;
+	padding: 0.32em 5px 0.32em 5px;
+	border: none;
+	margin: 0.5em 0;
+
+}
+
+.sacom-edit-row.billable-rates {
+
+	margin-top: 3.5em;
+
+}
+
+#field-billable-rate {
+
+	font-size: 1.8em;
+
+}
+
+#field-workspace {
+
+	justify-self: end;
+
+}
+
+.sacom-editor-child-object-form .datepicker-wrap {
+
+	margin-top: 0;
+
+}
+
+#field-time-end-date {
+
+	display: none;
+
+}
+
+#field-time-start-time {
+
+	width: 100%;
+	font-size: 1.5em;
+	padding: 0.25;
+
+}
+
+#field-time-end-time {
+
+	width: 100%;
+	font-size: 1.5em;
+	padding: 0.25;
+
+}
+
+#field-duration {
+
+	width: 100%;
+	font-size: 1.5em;
+	padding: 0.25;
+
+}
+
+/* Time Entries */
+.sacom-time-entry-input-wrapper {
+
+	position: relative;
+
+}
+
+.sacom-time-entry label {
+
+	color: #DFDFDF;
+	font-size: 1.1em;
+
+}
+
+
+.sacom-time-entry-ampm {
+
+	position: absolute;
+	top: 0.45em;
+	right: 0.35em;
+
+}
+
+.sacom-time-entry-ampm span {
+
+	cursor: pointer;
+	font-size: 1.2em;
+	margin: 0 0.30em;
+
+}
+
+.sacom-time-entry-ampm span.selected {
+
+	font-weight: 600;
+	color: #2271B1;
+
+}
+
+.sacom-mb-3 {
+
+	margin-bottom: 3.0em;
+
+}
+
+#duration {
+
+	margin: 2.5em 0 2.5em 0;
+	text-align: right;
+
+}
+
+#duration h3 {
+
+	font-weight: 500;
+	font-size: 1.35em;
+	color: #848484;
+
+}
+
+#sacom-subheader-right #invoice-generate-button,
+#sacom-subheader-right #invoice-link-button {
+
+	display: none;
+
+}

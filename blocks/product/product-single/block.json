@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/product-single",
+	"version": "0.1.0",
+	"title": "Product Single",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Display a single product in a page or grid.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "product-single",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

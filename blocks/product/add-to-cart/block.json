@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/add-to-cart",
+	"version": "0.1.0",
+	"title": "Add to Cart",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Renders a functional add product to cart button with quantity adjustment functionality.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "add-to-cart",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

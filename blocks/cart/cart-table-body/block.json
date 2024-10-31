@@ -1,0 +1,18 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/cart-table-body",
+	"version": "0.1.0",
+	"title": "Cart Table Body",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Cart table body block for the Saber Commerce cart.",
+	"supports": {
+		"html": false,
+		"inserter": false,
+		"color": true
+	},
+	"textdomain": "saber-commerce",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

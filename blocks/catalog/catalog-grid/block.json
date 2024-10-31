@@ -1,0 +1,17 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/catalog-grid",
+	"version": "0.1.0",
+	"title": "Catalog Grid",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Catalog grid displays a grid of products.",
+	"supports": {
+		"html": false,
+		"inserter": false
+	},
+	"textdomain": "catalog-grid",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

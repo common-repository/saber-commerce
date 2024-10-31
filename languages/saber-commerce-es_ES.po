@@ -1,0 +1,390 @@
+# Copyright (C) 2021 Saber WP
+# This file is distributed under the GPL3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Saber Commerce 1.1.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/saber-commerce\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-06-05T10:08:21+02:00\n"
+"PO-Revision-Date: 2021-06-21 16:05+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: saber-commerce\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2"
+
+#: components/Account/AccountComponent.php:43
+msgid "Accounts"
+msgstr "Cuentas"
+
+#: components/Account/AccountSummaryDashboardWidget.php:9
+msgid "ACCOUNTS SUMMARY"
+msgstr "RESUMEN DE CUENTAS"
+
+#: components/Invoice/InvoiceSummaryDashboardWidget.php:47
+msgid "Add Invoice"
+msgstr "Agregar factura"
+
+#: components/Order/OrderEditor.php:227
+#: components/Setting/SettingEditor.php:102
+msgid "Add New"
+msgstr "Agregar nuevo"
+
+#: components/Product/ProductSummaryDashboardWidget.php:47
+msgid "Add Product"
+msgstr "Añadir Producto"
+
+#: saber-commerce.php:268
+msgid "Address Line 1"
+msgstr "Dirección Línea 1"
+
+#: saber-commerce.php:276
+msgid "Address Line 2"
+msgstr "Línea de dirección 2"
+
+#: components/Checkout/CheckoutComponent.php:113
+msgid "Billing Details"
+msgstr "Detalles de facturación"
+
+#: components/Cart/CartComponent.php:259
+msgid "Cart emptied!"
+msgstr "Carro vaciado!"
+
+#: components/Cart/CartComponent.php:261
+msgid "Cart updated."
+msgstr "Carro actualizado."
+
+#: components/Checkout/CheckoutComponent.php:195 saber-commerce.php:284
+msgid "City"
+msgstr "Ciudad"
+
+#: components/Checkout/CheckoutComponent.php:177 saber-commerce.php:260
+msgid "Company Name"
+msgstr "Nombre de empresa"
+
+#: components/Checkout/CheckoutComponent.php:183 saber-commerce.php:300
+msgid "Country"
+msgstr "País"
+
+#: components/Timesheet/TimesheetSummaryDashboardWidget.php:47
+msgid "Create Timesheet"
+msgstr "Crear hoja de horas"
+
+#: saber-commerce.php:316
+msgid "Currency Display Text"
+msgstr "Texto de visualización de moneda"
+
+#: components/Admin/AdminComponent.php:205
+#: components/Setting/SettingEditor.php:104
+msgid "DASHBOARD"
+msgstr "TABLERO"
+
+#: components/Admin/AdminComponent.php:34
+#: components/Admin/AdminComponent.php:35
+msgid "Dashboard"
+msgstr "Tablero"
+
+#: components/Payment/Methods/Stripe/StripePayments.php:68
+msgid "DISABLED"
+msgstr "DISCAPACITADO"
+
+#: components/Admin/AdminComponent.php:208
+msgid "Donate to Support Developer"
+msgstr "Donar al desarrollador de soporte"
+
+#: components/Checkout/CheckoutComponent.php:213
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: components/Cart/CartComponent.php:190
+msgid "Empty Cart"
+msgstr "Carro vacio"
+
+#: components/Payment/Methods/Stripe/StripePayments.php:64
+msgid "ENABLED"
+msgstr "ACTIVADO"
+
+#: components/Checkout/CheckoutComponent.php:165
+msgid "First Name"
+msgstr "Primer nombre"
+
+#: saber-commerce.php:253 saber-commerce.php:254
+msgid "General Settings"
+msgstr "Configuración general"
+
+#. Author URI of the plugin
+msgid "https://saberwp.com/"
+msgstr "https://saberwp.com/"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/saber-commerce/"
+msgstr "https://wordpress.org/plugins/saber-commerce/"
+
+#: components/Invoice/InvoiceComponent.php:39
+msgid "Invoices"
+msgstr "Facturas"
+
+#: components/Invoice/InvoiceSummaryDashboardWidget.php:9
+msgid "INVOICES SUMMARY"
+msgstr "RESUMEN DE FACTURAS"
+
+#: components/Cart/CartComponent.php:260
+msgid "Item removed from cart."
+msgstr "Artículo eliminado del carrito."
+
+#: components/Checkout/CheckoutComponent.php:171
+msgid "Last Name"
+msgstr "Apellido"
+
+#: components/Timesheet/TimesheetSummaryDashboardWidget.php:34
+msgid "Latest Timesheets"
+msgstr "Últimas hojas de tiempo"
+
+#: components/Payment/Methods/Stripe/StripePayments.php:87
+msgid "LIVE"
+msgstr "EN VIVO"
+
+#: components/Admin/AdminComponent.php:207
+msgid "Manage Settings"
+msgstr "Administrar configuraciones"
+
+#: components/Admin/AdminComponent.php:206
+msgid "Need Help?"
+msgstr "¿Necesitas ayuda?"
+
+#: components/Cart/CartComponent.php:186
+msgid "New"
+msgstr "Nuevo"
+
+#: components/Account/AccountSummaryDashboardWidget.php:34
+msgid "New Accounts"
+msgstr "Nuevas cuentas"
+
+#: components/Invoice/InvoiceSummaryDashboardWidget.php:34
+msgid "New Invoices"
+msgstr "Facturas nuevas"
+
+#: components/Order/OrderSummaryDashboardWidget.php:34
+msgid "New Orders"
+msgstr "Nuevos pedidos"
+
+#: components/Payment/PaymentSummaryDashboardWidget.php:34
+msgid "New Payments"
+msgstr "Pagos nuevos"
+
+#: components/Product/ProductSummaryDashboardWidget.php:34
+msgid "New Products"
+msgstr "nuevos productos"
+
+#: components/Account/AccountSummaryDashboardWidget.php:47
+msgid "Open New Account"
+msgstr "Abrir nueva cuenta"
+
+#: components/Order/OrderSummaryDashboardWidget.php:47
+msgid "Open New Order"
+msgstr "Abrir nuevo pedido"
+
+#: components/Admin/AdminComponent.php:209
+msgid "Open Support Ticket"
+msgstr "Ticket de soporte abierto"
+
+#: components/Checkout/CheckoutComponent.php:219
+msgid "Order Notes"
+msgstr "pedidos"
+
+#: components/Order/OrderComponent.php:37
+msgid "Orders"
+msgstr "Pedidos"
+
+#: components/Order/OrderSummaryDashboardWidget.php:9
+msgid "ORDERS SUMMARY"
+msgstr "RESUMEN DE PEDIDOS"
+
+#: components/Checkout/CheckoutComponent.php:119
+msgid "Payment Options"
+msgstr "Opciones de pago"
+
+#: components/Payment/Methods/Stripe/StripePayments.php:125
+#: components/Payment/Methods/Stripe/StripePayments.php:126
+#: components/Payment/PaymentComponent.php:73
+msgid "Payments"
+msgstr "Pagos"
+
+#: components/Payment/PaymentSummaryDashboardWidget.php:9
+msgid "PAYMENTS SUMMARY"
+msgstr "RESUMEN DE PAGOS"
+
+#: components/Checkout/CheckoutComponent.php:207
+msgid "Phone"
+msgstr "Teléfono"
+
+#: components/Cart/CartComponent.php:187
+#: components/Checkout/CheckoutComponent.php:116
+msgid "Price"
+msgstr "Precio"
+
+#: components/Cart/CartComponent.php:191
+msgid "Proceed to Checkout"
+msgstr "Pasar por la caja"
+
+#: components/Cart/CartComponent.php:185
+#: components/Checkout/CheckoutComponent.php:115
+msgid "Product"
+msgstr "Producto"
+
+#: components/Product/ProductComponent.php:100
+msgid "Products"
+msgstr "Productos"
+
+#: components/Product/ProductSummaryDashboardWidget.php:9
+msgid "PRODUCTS SUMMARY"
+msgstr "RESUMEN DE PRODUCTOS"
+
+#: components/Cart/CartComponent.php:188
+#: components/Checkout/CheckoutComponent.php:117
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: components/Cart/CartComponent.php:192
+msgid "Remove"
+msgstr "Eliminar"
+
+#: components/Cart/CartComponent.php:193
+msgid "Return to Shop"
+msgstr "Volver a la tienda"
+
+#. Plugin Name of the plugin
+msgid "Saber Commerce"
+msgstr "Comercio de sable"
+
+#. Author of the plugin
+#| msgid "Saber WP"
+msgid "SaberWP"
+msgstr "SabreWP"
+
+#: components/Setting/SettingEditor.php:106
+msgid "SAVE"
+msgstr "AHORRAR"
+
+#: components/Setting/SettingEditor.php:105
+msgid "SETTINGS"
+msgstr "AJUSTES"
+
+#: components/Setting/SettingComponent.php:28
+msgid "Settings"
+msgstr "Ajustes"
+
+#: components/Admin/AdminComponent.php:210
+msgid "Share Your Review"
+msgstr "Comparte tu reseña"
+
+#: saber-commerce.php:292
+msgid "State/Province"
+msgstr "Provincia del estado"
+
+#: components/Checkout/CheckoutComponent.php:189
+msgid "Street Address"
+msgstr "Dirección"
+
+#: components/Payment/Methods/Stripe/StripePayments.php:58
+msgid "Stripe Enabled"
+msgstr "Franja habilitada"
+
+#: components/Payment/Methods/Stripe/StripePayments.php:112
+msgid "Stripe Live Publishable Key"
+msgstr "Clave publicable de Stripe Live"
+
+#: components/Payment/Methods/Stripe/StripePayments.php:120
+msgid "Stripe Live Secret Key"
+msgstr "Clave secreta de Stripe Live"
+
+#: components/Payment/Methods/Stripe/StripePayments.php:77
+msgid "Stripe Mode"
+msgstr "Modo de banda"
+
+#: components/Payment/Methods/Stripe/StripePayments.php:96
+msgid "Stripe Test Publishable Key"
+msgstr "Clave publicable de prueba de banda"
+
+#: components/Payment/Methods/Stripe/StripePayments.php:104
+msgid "Stripe Test Secret Key"
+msgstr "Clave secreta de prueba de rayas"
+
+#: components/Cart/CartComponent.php:189
+#: components/Checkout/CheckoutComponent.php:118
+msgid "Subtotal"
+msgstr "Total parcial"
+
+#: components/Payment/Methods/Stripe/StripePayments.php:83
+msgid "TEST"
+msgstr "PRUEBA"
+
+#. Description of the plugin
+msgid "Time tracking and invoicing software for WordPress sites."
+msgstr ""
+"Software de seguimiento de tiempo y facturación para sitios de WordPress."
+
+#: components/Timesheet/TimesheetSummaryDashboardWidget.php:9
+msgid "TIMESHEET SUMMARY"
+msgstr "RESUMEN DE HOJA DE TIEMPO"
+
+#: components/Timesheet/TimesheetComponent.php:41
+msgid "Timesheets"
+msgstr "Hojas de horas"
+
+#: components/Account/AccountSummaryDashboardWidget.php:21
+msgid "Total Accounts"
+msgstr "Cuentas totales"
+
+#: components/Invoice/InvoiceSummaryDashboardWidget.php:21
+msgid "Total Invoices"
+msgstr "Facturas totales"
+
+#: components/Order/OrderSummaryDashboardWidget.php:21
+msgid "Total Orders"
+msgstr "Órdenes totales"
+
+#: components/Payment/PaymentSummaryDashboardWidget.php:21
+msgid "Total Payments"
+msgstr "Pagos totales"
+
+#: components/Product/ProductSummaryDashboardWidget.php:21
+msgid "Total Products"
+msgstr "Productos totales"
+
+#: components/Timesheet/TimesheetSummaryDashboardWidget.php:21
+msgid "Total Timesheets"
+msgstr "Hojas de horas totales"
+
+#: components/Admin/AdminComponent.php:204
+msgid "Version"
+msgstr "Versión"
+
+#: components/Order/OrderEditor.php:228
+#: components/Setting/SettingEditor.php:103
+msgid "View All"
+msgstr "Ver todo"
+
+#: components/Payment/PaymentSummaryDashboardWidget.php:47
+msgid "View Payments"
+msgstr "Ver pagos"
+
+#: components/Workspace/WorkspaceComponent.php:36
+msgid "Workspaces"
+msgstr "Espacios de trabajo"
+
+#: components/Checkout/CheckoutComponent.php:114
+msgid "Your Order Summary"
+msgstr "Su resumen del pedido"
+
+#: components/Checkout/CheckoutComponent.php:201
+msgid "Zip or Postal Code"
+msgstr "CP o Código Postal"
+
+#: saber-commerce.php:308
+msgid "Zip/Postal Code"
+msgstr "Código postal"

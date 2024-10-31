@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/style.scss"],"names":[],"mappings":"AAAA;EAEC;EACA;EACA;EACA;AAAD,C","file":"style-index.css","sourcesContent":[".wp-block-saber-commerce-cart-table {\r\n\r\n\twidth: 100%;\r\n\tbackground-color: #FFF;\r\n\tcolor: #909090;\r\n\tborder-collapse: collapse;\r\n\r\n}\r\n"],"sourceRoot":""}

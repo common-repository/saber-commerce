@@ -1,0 +1,281 @@
+<div class="sacom-editor">
+
+	<div class="sacom-editor-col-1">
+
+		<h2 id="field-label">Label field here timesheet last week</h2>
+
+		<div style="display: grid; grid-template-columns: 1fr 1fr;">
+
+			<div id="field-account" class="sacom-editor-big-selector sacom-cursor-pointer">
+
+				<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="user-shield" class="svg-inline--fa fa-user-shield fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M622.3 271.1l-115.2-45c-4.1-1.6-12.6-3.7-22.2 0l-115.2 45c-10.7 4.2-17.7 14-17.7 24.9 0 111.6 68.7 188.8 132.9 213.9 9.6 3.7 18 1.6 22.2 0C558.4 489.9 640 420.5 640 296c0-10.9-7-20.7-17.7-24.9zM496 462.4V273.3l95.5 37.3c-5.6 87.1-60.9 135.4-95.5 151.8zM224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm96 40c0-2.5.8-4.8 1.1-7.2-2.5-.1-4.9-.8-7.5-.8h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c6.8 0 13.3-1.5 19.2-4-54-42.9-99.2-116.7-99.2-212z"></path></svg>
+
+				<h3>ACCOUNT</h3>
+
+			</div>
+
+			<div id="field-workspace" class="sacom-editor-big-selector sacom-cursor-pointer">
+
+				<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="project-diagram" class="svg-inline--fa fa-project-diagram fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M384 320H256c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32zM192 32c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v128c0 17.67 14.33 32 32 32h95.72l73.16 128.04C211.98 300.98 232.4 288 256 288h.28L192 175.51V128h224V64H192V32zM608 0H480c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32z"></path></svg>
+
+				<h3>WORKSPACE</h3>
+
+			</div><!-- End workspace selector. -->
+
+		</div><!-- End account/workspace row. -->
+
+		<!-- Dates -->
+		<div style="display: grid; grid-template-columns: 1fr 1fr;">
+
+			<!-- Start Date -->
+			<div style="display: flex;">
+
+				<div class="datepicker-prepend">
+					<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="calendar-alt" class="svg-inline--fa fa-calendar-alt fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path></svg>
+				</div>
+				<input id="date_start" name="date_start" class="datepicker" />
+			</div>
+
+
+			<!-- End Date -->
+			<div style="display: flex;">
+				<div class="datepicker-prepend">
+					<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="calendar-alt" class="svg-inline--fa fa-calendar-alt fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path></svg>
+				</div>
+				<input id="date_start" name="date_start" class="datepicker" />
+			</div>
+
+		</div><!-- End Dates -->
+
+		<!-- Billable Rate -->
+		<div class="sacom-edit-row billable-rates">
+			<div class="field-prepend">
+				<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-invoice-dollar" class="svg-inline--fa fa-file-invoice-dollar fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-153 31V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zM64 72c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8V72zm0 80v-16c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8zm144 263.88V440c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-24.29c-11.29-.58-22.27-4.52-31.37-11.35-3.9-2.93-4.1-8.77-.57-12.14l11.75-11.21c2.77-2.64 6.89-2.76 10.13-.73 3.87 2.42 8.26 3.72 12.82 3.72h28.11c6.5 0 11.8-5.92 11.8-13.19 0-5.95-3.61-11.19-8.77-12.73l-45-13.5c-18.59-5.58-31.58-23.42-31.58-43.39 0-24.52 19.05-44.44 42.67-45.07V232c0-4.42 3.58-8 8-8h16c4.42 0 8 3.58 8 8v24.29c11.29.58 22.27 4.51 31.37 11.35 3.9 2.93 4.1 8.77.57 12.14l-11.75 11.21c-2.77 2.64-6.89 2.76-10.13.73-3.87-2.43-8.26-3.72-12.82-3.72h-28.11c-6.5 0-11.8 5.92-11.8 13.19 0 5.95 3.61 11.19 8.77 12.73l45 13.5c18.59 5.58 31.58 23.42 31.58 43.39 0 24.53-19.05 44.44-42.67 45.07z"></path></svg>
+			</div>
+			<input id="field-billable-rates" type="text" />
+		</div><!-- End Billable Rate -->
+
+		<div class="sacom-stat">
+			<h2>32.56</h2>
+			<h4>BILLABLE HOURS</h4>
+		</div>
+
+		<div class="sacom-stat">
+			<h2>$892.39</h2>
+			<h4>BILLABLE AMOUNT</h4>
+		</div>
+
+
+	</div><!-- col 1 end. -->
+
+	<!-- Time Entries  -->
+	<div>
+
+		<button class="sacom-add-child-object-button">Add Time Entry</button>
+
+		<div style="display: grid; grid-template-columns: 1fr 1fr;">
+
+			<!-- Start Date -->
+			<div style="display: flex;">
+
+				<div class="datepicker-prepend">
+					<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="calendar-alt" class="svg-inline--fa fa-calendar-alt fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path></svg>
+				</div>
+				<input id="date_start" name="date_start" class="datepicker" />
+			</div>
+
+
+			<!-- End Date -->
+			<div style="display: flex;">
+				<div class="datepicker-prepend">
+					<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="calendar-alt" class="svg-inline--fa fa-calendar-alt fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm320-196c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM192 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12h-40c-6.6 0-12-5.4-12-12v-40zM64 268c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zm0 128c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path></svg>
+				</div>
+				<input id="date_start" name="date_start" class="datepicker" />
+			</div>
+
+		</div><!-- End Dates -->
+
+		<h3 id="field-memo">Enter a memo about this work...</h3>
+
+		<button>SAVE</button>
+
+		<hr />
+
+		<div class="sacom-editor-child-list">
+
+			<ul>
+
+				<li>
+					<div>CONTEXT MENU</div>
+					<h2>Draft brochure design in Figma.</h2>
+				</li>
+
+			</ul>
+
+		</div>
+
+	</div><!-- / Time Entries  -->
+
+</div>
+
+
+
+<style>
+
+.sacom-editor {
+
+	display: grid;
+	grid-template-columns: 4fr 6fr;
+
+}
+
+.sacom-stat {
+	text-align: center;
+	color: #6D6D6D;
+	margin: 2.0em 0;
+}
+
+.sacom-stat h2 {
+	font-size: 3.5em;
+	font-weight: 600;
+	margin: 0 0 0 0;
+}
+
+.sacom-stat h4 {
+	font-size: 1.4em;
+	margin: 0 0 0 0;
+}
+
+.sacom-edit-row {
+	margin: 1.0em 0;
+	max-width: 100%;
+}
+
+.billable-rates {
+	display: flex;
+}
+
+.field-prepend {
+	width: 50px;
+	margin: 0 0.5em 0 0;
+}
+
+.billable-rates input {
+	background: #BBB;
+	border: none;
+	padding: 0.3em;
+	font-size: 1.5em;
+	width: 100%;
+}
+
+.billable-rates svg path {
+	fill: blue;
+}
+
+#field-label {
+	font-size: 2.5em;
+	color: #9A9A9A;
+}
+#field-label input {
+	font-size: 2.5em;
+	color: #9A9A9A;
+	border: solid 1px #D9D9D9;
+	padding: 0.4em;
+}
+
+.datepicker-prepend {
+	cursor: pointer;
+	width: 30px;
+	height: 34px;
+}
+
+.datepicker-prepend svg path {
+	fill: #999780;
+}
+
+.datepicker-wrap {
+	max-width: 100%;
+}
+
+.datepicker-wrap input {
+	border: none;
+	backround: #F4F4F4;
+	width: 120px;
+}
+
+.start-date-prepend {
+
+}
+
+.end-date-prepend {
+
+}
+
+
+
+.sacom-cursor-pointer {
+	cursor: pointer;
+}
+
+.sacom-editor-big-selector {
+
+	background: #C4C4C4;
+	max-width: 150px;
+	margin: 1.0em 0;
+	padding: 20px 20px 0 20px;
+
+}
+
+.sacom-editor-big-selector svg {
+	margin: 0 0 1.0em 0;
+}
+
+.sacom-editor-big-selector svg path {
+	fill: #ACACAC;
+}
+
+.sacom-editor-big-selector h3 {
+	background: #2271B1;
+	margin: 0 -20px;
+	font-size: 1.2em;
+	font-weight: 500;
+	text-align: center;
+	color: #FFF;
+	padding: 15px 20px;
+}
+
+#field-account {
+
+
+
+}
+
+.sacom-add-child-object-button {
+	background: #999780;
+	padding: 0.5em 0.4em;
+	border: solid 1px black;
+	cursor: pointer;
+	font-size: 1.0em;
+	color: #FFF;
+	width: 100%;
+}
+
+.sacom-editor-child-list {
+
+
+
+}
+
+.sacom-editor-child-list ul {
+	list-style: none;
+	margin: 0;
+}
+
+.sacom-editor-child-list li {
+
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+
+}
+
+</style>

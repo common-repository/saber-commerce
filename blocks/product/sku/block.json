@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/sku",
+	"version": "0.1.0",
+	"title": "Product SKU",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Displays the product SKU if available.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "saber-commerce",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

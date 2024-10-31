@@ -1,0 +1,41 @@
+.sacom-form-row-block {
+
+	margin: 18px 0;
+
+}
+
+.sacom-form-row-block label {
+
+	font-size: 1.2em;
+	margin: 0 0 5px 0;
+
+}
+
+.sacom-form-row-block input {
+
+	min-width: 250px;
+	padding: 5px 8px;
+
+}
+
+.media-upload-field {
+
+	margin: 8px 0 0 0;
+
+}
+
+.media-upload-field button {
+
+	cursor: pointer;
+
+}
+
+.media_upload_field_preview_container {
+
+	margin: 6px 0;
+	padding: 50px;
+	background: #E4E4E4;
+	border: solid 1px #D8D8D8;
+	text-align: center;
+
+}

@@ -1,0 +1,25 @@
+{
+	"apiVersion": 2,
+	"name": "saber-commerce/product-title",
+	"version": "0.1.0",
+	"title": "Product Title",
+	"category": "widgets",
+	"icon": "cart",
+	"description": "Render the product title.",
+	"supports": {
+		"color": {
+			"background": true,
+			"text": true,
+			"gradients": true,
+			"link": true
+		}
+		"supports": {
+			"html": false,
+			"inserter": false
+		},
+	},
+	"textdomain": "product-title",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

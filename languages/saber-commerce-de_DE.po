@@ -1,0 +1,87 @@
+# Copyright (C) 2021 Saber WP
+# This file is distributed under the GPL3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Saber Commerce 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sacomA\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-06-12T02:21:49+02:00\n"
+"PO-Revision-Date: 2021-06-12 00:30+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: saber-commerce\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2"
+
+#. Plugin Name of the plugin
+msgid "Saber Commerce"
+msgstr "Säbelhandel"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/saber-commerce/"
+msgstr "https://wordpress.org/plugins/saber-commerce/"
+
+#. Description of the plugin
+msgid "Time tracking and invoicing software for WordPress sites."
+msgstr "Zeiterfassungs- und Abrechnungssoftware für WordPress-Sites."
+
+#. Author of the plugin
+msgid "Saber WP"
+msgstr "Säbel WP"
+
+#. Author URI of the plugin
+msgid "https://saberwp.com/"
+msgstr "https://saberwp.com/"
+
+#: components/Admin/AdminComponent.php:38
+#: components/Admin/AdminComponent.php:39
+msgid "Dashboard"
+msgstr "Instrumententafel"
+
+#: components/Cart/CartComponent.php:181
+#: components/Checkout/CheckoutComponent.php:115
+msgid "Product"
+msgstr "Produkt"
+
+#: components/Cart/CartComponent.php:182
+msgid "New"
+msgstr "Neu"
+
+#: components/Cart/CartComponent.php:183
+#: components/Checkout/CheckoutComponent.php:116
+msgid "Price"
+msgstr "Preis"
+
+#: components/Cart/CartComponent.php:184
+#: components/Checkout/CheckoutComponent.php:117
+msgid "Quantity"
+msgstr "Menge"
+
+#: components/Cart/CartComponent.php:185
+#: components/Checkout/CheckoutComponent.php:118
+msgid "Subtotal"
+msgstr "Zwischensumme"
+
+#: components/Cart/CartComponent.php:186
+msgid "Empty Cart"
+msgstr "Leerer Warenkorb"
+
+#: components/Cart/CartComponent.php:187
+msgid "Proceed to Checkout"
+msgstr "Zur Kasse"
+
+#: components/Cart/CartComponent.php:188
+msgid "Remove"
+msgstr "Entfernen"
+
+#: components/Checkout/CheckoutComponent.php:113
+msgid "Billing Details"
+msgstr "Rechnungsdetails"
+
+#: components/Checkout/CheckoutComponent.php:114
+msgid "Your Order Summary"
+msgstr "Zusammenfassung Ihrer Bestellung"
